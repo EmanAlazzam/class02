@@ -1,14 +1,14 @@
 'use strict';
 
 
-let userName=prompt('The Gussing ABOUT ME Game!!');
+let userName=prompt('The Gussing ABOUT ME Game!! Kindlly Enter Your Name');
 alert('WELCOME'+userName+' !!');
-alert('My Name is Eman, I am Happy to give you some informations about me!');
+alert('My Name is Eman, I am Happy to give you some information about me!');
 confirm('let us get started :)');
 let sum=0;
 let gam1=prompt('Do you think I am a web developer? [Y/N]').toLowerCase();
 if(gam1 ==='y' || gam1==='yes'){
-  alert('Not Yet!!');
+  alert('No Not Yet!!');
   console.log(gam1);
 }
 else if(gam1 === 'n'|| gam1=== 'no'){
@@ -37,7 +37,7 @@ if(gam3 ==='y' || gam3==='yes'){
   alert('Yes I did,I hold BS in Biomedical Engineering');
   console.log(gam1);
 } else if(gam3 === 'n'|| gam3=== 'no'){
-  alert('you Wrong try to put yes!');
+  alert('you Wrong try to put yes another time!');
   sum=sum+1;
 }else{
   alert('TRY ANOTHER FORM OF ANSWER!!');
