@@ -2,7 +2,7 @@
 
 
 let userName=prompt('The Gussing ABOUT ME Game!! Kindlly Enter Your Name');
-alert('WELCOME'+userName+' !!');
+alert('WELCOME '+userName+' !!');
 alert('My Name is Eman, I am Happy to give you some information about me!');
 confirm('let us get started :)');
 let sum=0;
@@ -10,10 +10,10 @@ let gam1=prompt('Do you think I am a web developer? [Y/N]').toLowerCase();
 if(gam1 ==='y' || gam1==='yes'){
   alert('No Not Yet!!');
   console.log(gam1);
+  sum=sum+1;
 }
 else if(gam1 === 'n'|| gam1=== 'no'){
   alert('NO I am NOT a developer YET! But I will be Inshaallah!');
-  sum=sum+1;
 } else{
   alert('TRY ANOTHER FORM OF ANSWER!!');
 }
