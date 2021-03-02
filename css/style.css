@@ -1,31 +1,63 @@
 body{
-    background-image: url('https://images.unsplash.com/photo-1505238680356-667803448bb6?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1000&q=80');
-    background-size: cover;
-    background-color: rgb(131, 90, 141);
-    background-blend-mode:hard-light;
-    height:fit-content;
-   
+  background-image: url('https://images.unsplash.com/photo-1505238680356-667803448bb6?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1000&q=80');
+  background-size:200%;
+  background-repeat:no-repeat;
+  background-color: rgb(106, 72, 114);
+  background-blend-mode:hard-light;
+  height:fit-content;
+ 
 }
 
 #head1{
-    font-family: 'Orbitron', sans-serif;
-    font-size: 50px;
-  color:rgb(184, 84, 2);
-  text-align: center;
-  text-decoration: start;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 50px;
+color:rgb(184, 84, 2,0.4);
+text-align: center;
+text-decoration: start;
+}
+#head2{
+  font-family: 'Orbitron', sans-serif;
+  font-size: 35px;
+color:rgb(155, 72, 5);
+text-align:inherit;
+text-decoration: start;
+margin: 30px;
+}
+#prg1{
+  font-family: 'Truculenta', sans-serif;
+  font-size: 30px;
+  color:rgb(153, 77, 14);
+  text-align:center;
+  margin: 30px;
 }
 
-#prg1{
-    font-family: 'Truculenta', sans-serif;
-    font-size: 30px;
-  color:rgb(153, 77, 14);
-  text-align:center;
-  margin: 30px;
-}
 #prg2{
-font-family: 'Truculenta', sans-serif;
-    font-size: 30px;
-  color:rgb(153, 77, 14);
-  text-align:center;
+  font-family: 'Truculenta', sans-serif;
+  font-size: 30px;
+  color:rgb(151, 73, 8);
   margin: 30px;
 }
+a:link {
+  color:rgb(105, 5, 5);
+  background-color: transparent;
+  text-decoration: none;
+  margin: 30px;
+}
+
+a:visited{
+  color:rgb(105, 5, 5);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:link, a:visited {
+  padding: 4px 5px;
+  text-align:inherit;
+  text-decoration: none;
+  display:block;
+}
+
+a:hover, a:active {
+  background-color:rgb(106, 72, 114);
+}
+
