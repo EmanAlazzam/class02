@@ -24,7 +24,7 @@ else if(gam1 === 'n'|| gam1=== 'no'){
 let gam2=prompt('Do you think I will be a good web developer? [Y/N]').toLowerCase();
 if(gam2 ==='y' || gam2==='yes'){
   alert('Until now Im good we will see about that!');
-  console.log(gam1);
+  console.log(gam2);
   sum=sum+1;
 }
 else if(gam2 === 'n'|| gam2=== 'no'){
@@ -36,7 +36,7 @@ else if(gam2 === 'n'|| gam2=== 'no'){
 let gam3=prompt('Did I finished my bachelors degree or NOT? [Y/N]').toLowerCase();
 if(gam3 ==='y' || gam3==='yes'){
   alert('Yes I did,I hold BS in Biomedical Engineering');
-  console.log(gam1);
+  console.log(gam3);
   sum=sum+1;
 } else if(gam3 === 'n'|| gam3=== 'no'){
   alert('you Wrong try to put yes another time!');
@@ -47,7 +47,7 @@ if(gam3 ==='y' || gam3==='yes'){
 let gam4=prompt('Do I Know any other programming languages? [Y/N]').toLowerCase();
 if(gam4 ==='y' || gam4==='yes'){
   alert('Yes I am, I know C++, Python and lets considered MATLAB as one :)');
-  console.log(gam1);
+  console.log(gam4);
   sum=sum+1;
 }
 else if(gam4 === 'n'|| gam4=== 'no'){
@@ -59,7 +59,7 @@ else if(gam4 === 'n'|| gam4=== 'no'){
 let gam5=prompt('Do you think I will finish this course successfully? [Y/N]').toLowerCase();
 if(gam5 ==='y' || gam5==='yes'){
   alert('I WILL, THANK YOU!!');
-  console.log(gam1);
+  console.log(gam5);
   sum=sum+1;
 }
 else if(gam5 === 'n'|| gam5=== 'no'){
@@ -75,6 +75,7 @@ for (let i=0; i<hitArray.length; i++){
   let conArr=parseInt(gam6);
   if (conArr===24){
     alert('That is the right answer!!');
+    console.log(gam6);
     sum=sum+1;
     break;
   }else {
@@ -97,6 +98,7 @@ for(let j=0;j<6;j++){
   let MovGuss=prompt('Guss one of my favorte movies').toLowerCase();
   if (MovGuss===favMovies[0] || MovGuss===favMovies[1] || MovGuss===favMovies[2] || MovGuss===favMovies[3] ){
     alert('You Gussed it right ');
+    console.log(MovGuss);
     sum=sum+1;
     break;
   }
